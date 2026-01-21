@@ -20,14 +20,14 @@ The training dataset is derived from the "U.S. Census Bureau Adult Income" datas
 * Label (target): Binary classification of income level (salary > $50,000 or <= $50,000)
 
 Categorical Features are handled as so:
-    * They are one-hot encoded, creating a binary feature for each category.
+* They are one-hot encoded, creating a binary feature for each category.
 
-    * One-hot encoding allows for the model to learn separate patterns per category without assuming relationships between them.
+* One-hot encoding allows for the model to learn separate patterns per category without assuming relationships between them.
 
 Numerical Features are handled as so:
-    * Values are passed directly to the model.
+* Values are passed directly to the model.
 
-    * Random Forest Classifiers handle raw numerical ranges well, so scaling is not required. This allows for the real-world meaning of numerical values to be preserved. 
+* Random Forest Classifiers handle raw numerical ranges well, so scaling is not required. This allows for the real-world meaning of numerical values to be preserved. 
 
 The training dataset is 80% of the census.csv spreadsheet.
 
